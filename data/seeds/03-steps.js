@@ -9,6 +9,11 @@ exports.seed = function (knex, Promise) {
         step_instructions: "Add 1 tbsp olive oil", 
         step_number:2,
         recipe_id: 1,
+      },
+      {
+        step_instructions: "Add sausage", 
+        step_number:2,
+        recipe_id: 1,
       }
     ]);
   };
